@@ -15,3 +15,8 @@ The `shanten_*` tables are used to calculate the probabilities of winning hands 
 Note: all of these computations are performed on independent, arbitrary hands. In actual play, player may choose tiles to discard which bring themselves closer to hand completion, as well as use calls on other players' discards to meld completed sets of tiles. The relative rates of occurrence for different hand patterns should not necessarily be taken as representative for how likely or how difficult they will come up in actual play.
 
 A summary of results can be found in `Small_Mahjong_Probabilities.md`, and individual computations for each hand size are performed in the `*Set_Probabilities.ipynb` notebooks.
+
+## Revision Roadmap
+
+- While statistics on complete hands appears to be correct, there appear to be errors in compilation of shanten statistics, on about 0.04% of all possible hands. (See [this page](http://www10.plala.or.jp/rascalhp/mjmath.htm) for reference)
+- Add notebooks and standalone docs for full 3- and 4-player mahjong.
