@@ -16,7 +16,7 @@ A randomly selected hand of four tiles has an average shanten of 0.63, in the fo
 
 | shanten |  count | proportion |
 |:-------:|-------:|-----------:|
-|    0    | 21 753 | 0.369      |
+|    0    | 21 753 | 0.369      |      
 |    1    | 37 152 | 0.631      |
 
 ### Winning hand probabilities
@@ -126,15 +126,16 @@ Among those complete hands, their tile compositions include the following proper
 
 There are 87 586 833 265 107 120 possible hands of thirteen tiles.
 A randomly selected hand of thirteen tiles has an average shanten of 3.08, in the following distribution:
+
 | shanten |  count (mil) | proportion |      ratio     |
 |:-------:|-------------:|-----------:|---------------:|
 |    0    |     27 510 M | 0.000 314  | 1 in  3 184    |
-|    1    |  1 648 470 M | 0.018 821  | 1 in     53.1  |
-|    2    | 17 819 632 M | 0.203 451  | 1 in      4.92 |
-|    3    | 42 600 348 M | 0.486 378  | 1 in      2.06 |
-|    4    | 22 661 496 M | 0.258 732  | 1 in      3.87 |
-|    5    |  2 778 894 M | 0.031 727  | 1 in     31.5  |
-|    6    |     50 483 M | 0.000 576  | 1 in  1 735    |
+|    1    |  1 664 431 M | 0.019 003  | 1 in     52.6  |
+|    2    | 17 955 857 M | 0.205 006  | 1 in      4.88 |
+|    3    | 42 710 536 M | 0.487 636  | 1 in      2.05 |
+|    4    | 22 489 666 M | 0.256 656  | 1 in      3.90 |
+|    5    |  2 701 624 M | 0.030 845  | 1 in     32.4  |
+|    6    |     47 210 M | 0.000 539  | 1 in  1 855    |
 
 Fitting to only standard hands, the average shanten is 3.19, in the following distribution:
 
