@@ -18,5 +18,6 @@ A summary of results can be found in `Small_Mahjong_Probabilities.md`, and indiv
 
 ## Revision Roadmap
 
-- While statistics on complete hands appears to be correct, there appear to be errors in compilation of shanten statistics, on about 0.04% of all possible hands. (See [this page](http://www10.plala.or.jp/rascalhp/mjmath.htm) for reference)
-- Add notebooks and standalone docs for full 3- and 4-player mahjong.
+While statistics on complete hands appears to be correct, there are errors in compilation of shanten statistics, on about 0.04% of all possible hands. This is due to an incorrect assesment of hand patterns where tile waits are on tiles where there are already four copies in hand. For example, a 1111 group cannot complete a _tanki_ (single) wait on the 1 since there are no more 1 tiles available. (See section 12 on [this page](http://www10.plala.or.jp/rascalhp/mjmath.htm) for reference on the correct values.)
+
+Once these errors are resolved, notebooks and standalone docs for full 3- and 4-player mahjong will be completed and added to the repository.
